@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+  
+}
+.container{
+    width: 500px;
+    height: 600px;
+    padding: 15px;
+    background-color: rgb(254, 252, 252);
+    box-shadow: 2px 2px 5px 5px rgb(207, 209, 210);
+    align-items: center;
+    border-radius: 4px;
+   
+}
+.main-container{
+    margin-bottom: 20px;
+}
+.header{
+    display: flex ;
+    flex-direction: row;
+    
+
+}
+
+.notification{
+    justify-content: flex-start;
+    font-weight: 800 ;
+}
+.square{
+    /* width: 10px;
+    height: 10px;
+    border: solid 1px rgb(9, 2, 114); */
+  
+    height: 10px;
+    width: 10px;
+    /* padding: 4px; */
+   
+   
+}
+.photo-1{
+   padding-top: 10px;
+   padding-left: 8px;
+
+}
+.mark{
+    padding-left: 270px;
+    font-weight: 500;
+    color: rgb(6, 17, 134);
+}
+.para{
+    background-color:rgba(233, 240, 246, 0.899);
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 5px;
+    /* text-align: center;
+    align-items: center; */
+}
+.text{
+    padding-left: 10px;
+    /* padding-top: 1px; */
+    align-items: flex-start;
+   
+}
+.text-blue{
+    color: rgb(6, 17, 134);
+}
+.under-text{
+    color: rgb(138, 133, 133);
+    font-size: 11px;
+}
